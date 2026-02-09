@@ -4,6 +4,7 @@
 This project applies K-Nearest Neighbors (KNN) regression to predict a student’s final grade (G3) based on study behavior, attendance, and prior academic performance. The goal is to evaluate whether a simple, non-parametric model can meaningfully capture patterns in student outcomes using a small set of academic features.
 
 ## Data
+Source: UCI Student Performance dataset (via ucimlrepo, dataset id 320)
 The dataset contains student academic records, including:
 - studytime (weekly study time)
 - absences (number of school absences)
