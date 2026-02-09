@@ -1,18 +1,28 @@
-# Data Science Portfolio
+Data Science Portfolio
 
-Hi, I'm Trevor, a UBC undergraduate exploring Data Science with an interest in using data to understand and optimize real-world systems.
+Hi, I’m Trevor Lau — a UBC undergraduate working toward a specialization in Data Science. I’m interested in using data to analyze real-world systems, uncover patterns, and support better decision-making.
 
-This repository contains selected projects demonstrating my skills in:
-- Data cleaning and wrangling
-- Exploratory data analysis
-- Statistical reasoning
-- Data visualization
-- Clear communication of results
+This repository contains selected projects that demonstrate my growing skills in:
 
-## Projects
-- Project 1: [Coming soon]
-- Project 2: [Coming soon]
-- Project 3: [Coming soon]
+Data cleaning and preprocessing
 
-## Tools
-Python, pandas, numpy, matplotlib, seaborn, scikit-learn
+Exploratory data analysis (EDA)
+
+Statistical reasoning and inference
+
+Data visualization for insight and communication
+
+Applying machine learning models responsibly
+
+Each project emphasizes clear problem formulation, transparent methods, and interpretable results.
+
+Projects
+
+Student Performance Prediction (KNN Regression) – Predicting final grades using academic and behavioral features
+
+[Upcoming]
+[Upcoming] 
+
+Tools & Technologies
+
+Python, pandas, scikit-learn
