@@ -14,12 +14,13 @@ Each project emphasizes clear problem formulation, transparent methods, and inte
 
 ## **Projects**
 
-- **Student Performance Prediction (KNN Regression)**  
-  Predicting final grades using academic and behavioral features
+### Project 1: KNN Regression – Student Performance
+Predicting final grades using KNN with feature scaling and model evaluation.
 
-- **[Upcoming]**
-- **[Upcoming]**
+Skills: Python, pandas, scikit-learn, RMSE, model tuning
 
+### Project 2: (Coming) Technical Indicators & VFV
+Testing whether common technical indicators improve out-of-sample return prediction.
 ## **Tools & Technologies**
 
 - **Python**
