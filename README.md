@@ -30,6 +30,13 @@ Evaluated whether commonly used return-based technical indicators provide meanin
 
 ---
 
+### **Project 3: BC Collision Analysis** (Status: In Progress)
+Exploratory analysis of British Columbia motor vehicle collision data. This project is in early stages — data collection, cleaning, and SQL-based exploration are underway, with folder structure (data/, sql/, notebooks/) set up to organize the workflow.
+
+**Skills:** TBD
+
+---
+
 ## **Tools & Technologies**
 
 - **Python**
