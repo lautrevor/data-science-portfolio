@@ -1,6 +1,6 @@
 ## **Data Science Portfolio**
 
-Hi, I’m **Trevor Lau** — a UBC undergraduate working toward a specialization in Data Science. I’m interested in using data to analyze real-world systems, evaluate claims critically, and support better decision-making through disciplined analysis.
+Hi, I’m **Trevor Lau** — a UBC undergraduate specializing in Data Science. I’m interested in using data to analyze real-world systems, evaluate claims critically, and support better decision-making through disciplined analysis.
 
 This repository contains selected projects that demonstrate my growing skills in:
 
@@ -30,10 +30,12 @@ Evaluated whether commonly used return-based technical indicators provide meanin
 
 ---
 
-### **Project 3: BC Collision Analysis** (Status: In Progress)
-Exploratory analysis of British Columbia motor vehicle collision data. This project is in early stages — data collection, cleaning, and SQL-based exploration are underway, with folder structure (data/, sql/, notebooks/) set up to organize the workflow.
+### **Project 3: Collision Risk Factor Analysis** (Status: In Progress)
+Analysis of police-reported traffic collision microdata from Transport Canada's National Collision Database (2019–2020, ~471K records) to identify which factors are most associated with injury severity — the kind of risk analysis conducted by insurance and road-safety analytics teams. The project combines SQL-based exploratory querying (crash timing, weather and road conditions, crash type vs. severity, year-over-year trends including the COVID-era drop) with a multivariate logistic regression that isolates the independent effects of driver age, safety device use, weather, and year on injury probability, reported as interpretable odds ratios.
 
-**Skills:** TBD
+Data is loaded directly from this repository via a reproducible pipeline (no manual downloads required to rerun the analysis), with a documented data dictionary and an explicit data-cleaning step resolving a formatting inconsistency between source files.
+
+**Skills:** SQL (SQLite), R, dplyr, ggplot2, logistic regression (glm/broom), data cleaning, reproducible data pipelines, statistical inference
 
 ---
 
@@ -41,7 +43,8 @@ Exploratory analysis of British Columbia motor vehicle collision data. This proj
 
 - **Python**
 - **R**
-- **pandas**
+- **SQL (SQLite)**
+- **pandas / dplyr**
 - **scikit-learn**
 - **Statistical inference**
-- **Data visualization (Altair, matplotlib)**
+- **Data visualization (Altair, matplotlib, ggplot2)**
