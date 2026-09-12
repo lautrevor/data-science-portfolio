@@ -1,1 +1,10 @@
-
+SELECT
+  P_USER,
+  COUNT(*) AS persons,
+  ROUND(100.0 * SUM(CASE WHEN P_ISEV = 3      THEN 1 ELSE 0 END) / COUNT(*), 2) AS fatality_pct,
+  ROUND(100.0 * SUM(CASE WHEN P_ISEV IN (2,3) THEN 1 ELSE 0 END) / COUNT(*), 2) AS harmed_pct
+FROM collisions
+WHERE P_ISEV IN (1,2,3)
+  AND P_USER IN (1,2,3,4,5)
+GROUP BY P_USER
+ORDER BY fatality_pct DESC;
