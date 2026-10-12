@@ -1,0 +1,10 @@
+SELECT
+  C_RCFG,
+  COUNT(*) AS persons,
+  ROUND(100.0 * SUM(CASE WHEN P_ISEV = 3 THEN 1 ELSE 0 END) / COUNT(*), 2) AS fatality_pct
+FROM collisions
+WHERE P_ISEV IN (1,2,3)
+  AND P_USER = 3
+  AND C_RCFG IS NOT NULL
+GROUP BY C_RCFG
+ORDER BY persons DESC;
